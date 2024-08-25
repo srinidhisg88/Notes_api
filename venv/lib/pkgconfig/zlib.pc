@@ -1,0 +1,13 @@
+prefix=/Users/srinidhisg/ml/FastAPI/venv
+exec_prefix=/Users/srinidhisg/ml/FastAPI/venv
+libdir=/Users/srinidhisg/ml/FastAPI/venv/lib
+sharedlibdir=/Users/srinidhisg/ml/FastAPI/venv/lib
+includedir=/Users/srinidhisg/ml/FastAPI/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
